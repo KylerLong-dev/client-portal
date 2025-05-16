@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="grid grid-cols-5 min-h-screen">
-          <Sidebar className="col-span-1" />
+          <Sidebar />
           <main className="col-span-4">{children}</main>
         </div>
       </body>
