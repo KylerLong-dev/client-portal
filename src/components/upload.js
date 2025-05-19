@@ -1,9 +1,9 @@
 export default function Upload() {
     return (
         <div className="bg-offwhite rounded-lg shadow ml-6 mr-6 mt-4">
-            <h2 className="text-primary text-xl font-bold mb-2">Asset Upload</h2>
-            <p className="text-gray-900 mb-4">Upload your project files, images, or other assets here. Accepted formats: PDF, JPG, PNG, DOCX, and more.</p>
-            <div className="flex items-start gap-2 mb-3">
+            <h3 className="text-primary font-bold mb-2">Asset Upload</h3>
+            <p className="text-gray-900 mb-4">Upload your project files, image, or other assets here. Accepted formats: PDF, JPG, PNG, DOCX, and more.</p>
+            <div className="flex items-start gap-2 mb-3 max-[841px]:flex-col max-[841px]:items-start max-[841px]:space-y-3">
                 {/* Hide the default file input */}
                 <input
                     id="file-upload"
